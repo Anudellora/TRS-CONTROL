@@ -12,7 +12,7 @@
 | **10.1** | Кастомные исключения `CustomErrorA`/`CustomErrorB`, middleware-обработчик, модели ответов, demo-эндпоинты | `apperrors/errors.go`, `handlers/router.go` |
 | **10.2** | Модель `UserIn` с валидацией (username, age>18, email, password 8–16 симв., phone?), кастомный обработчик ошибок валидации | `models/user.go`, `apperrors/errors.go` |
 | **11.1** | Unit-тесты трёх эндпоинтов (POST/GET/DELETE) через `httptest`, различные сценарии + граничные случаи | `handlers/user_test.go` |
-| **11.2** | Параллельные тесты с `t.Parallel()`, `httptest.Server` + `http.Client` (аналог httpx.AsyncClient+ASGITransport), данные от **gofakeit** (аналог Python Faker), изоляция состояния через `store.Reset()` | `handlers/user_faker_test.go` |
+| **11.2** | Параллельные тесты с `t.Parallel()`, `httptest.Server` + `http.Client` (ааналог httpx.AsyncClient+ASGITransport), данные от **gofakeit** (аналог Python Faker), изоляция состояния через `store.Reset()` | `handlers/user_faker_test.go` |
 
 ---
 
